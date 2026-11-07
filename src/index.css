@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Tailwind Custom Animation */
+@theme {
+  --animate-float: float 6s ease-in-out infinite;
+}
+
+/* Float Animation Keyframes */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
