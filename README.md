@@ -204,15 +204,8 @@ The portfolio uses EmailJS for contact form functionality.
 
 Create a `.env` file in the project root:
 
-```env
-VITE_EMAILJS_SERVICE_ID=your_service_id
-VITE_EMAILJS_TEMPLATE_ID=your_template_id
-VITE_EMAILJS_PUBLIC_KEY=your_public_key
-```
-
 Replace the placeholders with your EmailJS configuration values.
 
-Do not commit private API keys, passwords, or other sensitive credentials.
 
 ---
 
